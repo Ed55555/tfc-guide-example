@@ -1,7 +1,7 @@
-variable "aws_region" {
-  type    = string
-  default = "eu-north-1"
-}
+#variable "aws_region" {
+#  type    = string
+#  default = "eu-north-1"
+#}
 
 provider "aws" {
   region     = "eu-north-1"
