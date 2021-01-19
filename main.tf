@@ -7,7 +7,7 @@ provider "aws" {
 }
 
 provider "random" {
-  version = "2.2"
+  version = "2.3"
 }
 
 resource "random_pet" "table_name" {}
